@@ -10,7 +10,10 @@ jobs:
   dockerize:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
+<<<<<<< HEAD
     
+=======
+>>>>>>> 836e53a821f6af3c080e69e3c3a3130bc437b939
     steps:
     - name: Build the Image
     - uses: actions/checkout@v2
