@@ -8,8 +8,8 @@ on:
 
 jobs:
 
-  build:
-
+  build-image:
+    name: Build Image
     runs-on: ubuntu-latest
 
     steps:
